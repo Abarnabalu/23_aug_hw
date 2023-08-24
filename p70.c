@@ -5,25 +5,25 @@ int nokia=15000,samsung=30000,vivo=47000,oneplus=65000,iphone=85000;
 float a,b;
 printf("enter the budget values (lower then higher)\n");
 scanf("%f%f",&a,&b);
-if((b<=20000))
+if((nokia>=a)&&(nokia<=b))
 {
-printf("you can buy nokia");
+printf("you can buy nokia\n");
 }
-else if(b<=40000)
+if((samsung>=a)&&(samsung<=b))
 {
-printf("you can buy nokia or samsung");
+printf("you can buy samsung\n");
 }
-else if(b<=60000)
+if((vivo>=a)&&(vivo<=b))
 {
-printf("you can buy nokia or samsung or vivo");
+printf("you can buy  vivo\n");
 }
-else if(b<=80000)
+if((oneplus>=a)&&(oneplus<=b))
 {
-printf("you can buy nokia or samsung or vivo");
+printf("you can buy oneplus\n");
 }
-else if(b<=100000)
+if((iphone>=a)&&(iphone<=b))
 {
-printf("you can buy nokia or samsung or vivo or iphone");
+printf("you can buy iphone\n");
 }
 
 return 0;
